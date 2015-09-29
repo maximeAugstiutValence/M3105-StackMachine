@@ -28,6 +28,8 @@ public class CPU
 	public final static int DUP		= 0x14;
 	public final static int POP		= 0x15;
 	
+	private IO ioSystem;
+	
 	// TODO something is missing here...
 
 	public void run()
@@ -177,6 +179,7 @@ public class CPU
 			// TODO something is missing here...
 		}		
 	}
+	
 
 	public void wireToProgramMemory(Memory programMemory) {
 		// TODO Auto-generated method stub
@@ -194,6 +197,18 @@ public class CPU
 	}
 
 	public void wireToIoSubsystem(IO ioSystem) {
+		// TODO Auto-generated method stub
+		
+	}
+
+
+	public void clearStacks() {
+		// TODO Auto-generated method stub
+		
+	}
+
+
+	public void setPC(int address) {
 		// TODO Auto-generated method stub
 		
 	}

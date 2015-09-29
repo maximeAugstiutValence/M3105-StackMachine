@@ -1,11 +1,13 @@
-window_sizes 624 946 159 459 747 73
-diagrams
-  active  classdiagram_ref 128002 // StackMachine
-    892 712 100 4 0 0
-end
+window_sizes 1200 896 159 459 747 73
 show_stereotypes
-selected operation_ref 128002 // IO
+selected operation_ref 135938 // Memory
 open
   class_ref 128002 // IO
+  class_ref 128130 // CPU
+  class_ref 128258 // Machine
+  class_ref 128386 // MachineLauncher
+  class_ref 134914 // Instruction
+  class_ref 135042 // Program
+  class_ref 135170 // Memory
 end
 end

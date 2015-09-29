@@ -9,6 +9,16 @@ public class Instruction {
 		this.adress = adress;
 	}
 
+	public int getOpCode() {
+		// TODO Auto-generated method stub
+		return this.operator;
+	}
+
+	public int[] getParams() {
+		// TODO Auto-generated method stub
+		return this.adress;
+	}
+
 	
 
 }

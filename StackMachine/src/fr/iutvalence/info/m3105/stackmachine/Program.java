@@ -8,4 +8,14 @@ public class Program {
 		this.instructions = instructions;
 	}
 
+	public int getInstructionCount() {
+		
+		return instructions.length;
+	}
+
+	public Instruction getInstructionAt(int instructionNumber) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
 }
