@@ -9,14 +9,14 @@ public class Instruction {
 		this.adress = adress;
 	}
 
-	public int getOpCode() {
+	public Object getOpCode() {
 		// TODO Auto-generated method stub
-		return this.operator;
+		return null;
 	}
 
 	public int[] getParams() {
 		// TODO Auto-generated method stub
-		return this.adress;
+		return null;
 	}
 
 	

@@ -14,7 +14,7 @@ public class Memory {
 		return this.startAdress;
 	}
 
-	public void write(int currentAddress, int instructionParam) {
+	public void write(int currentAddress, Object opcode) {
 		// TODO Auto-generated method stub
 		
 	}
