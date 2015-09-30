@@ -28,7 +28,7 @@ public class CPU
 	public final static int DUP		= 0x14;
 	public final static int POP		= 0x15;
 	
-	private IO ioSystem;
+	private consoleIO ioSystem;
 	
 	private Instruction operator;
 	// TODO something is missing here...
@@ -197,7 +197,7 @@ public class CPU
 		
 	}
 
-	public void wireToIoSubsystem(IO ioSystem) {
+	public void wireToIoSubsystem(consoleIO ioSystem) {
 		// TODO Auto-generated method stub
 		
 	}

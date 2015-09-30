@@ -5,7 +5,7 @@ public class Machine
 	private CPU cpu;
 	private Memory programMemory;
 
-	public Machine(CPU cpu, Memory programMemory, Stack expStack, Stack callStack, IO ioSystem)
+	public Machine(CPU cpu, Memory programMemory, Stack expStack, Stack callStack, consoleIO ioSystem)
 	{
 		super();
 		this.cpu = cpu;
