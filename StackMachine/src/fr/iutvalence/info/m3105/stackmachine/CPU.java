@@ -30,6 +30,7 @@ public class CPU
 	
 	private IO ioSystem;
 	
+	private Instruction operator;
 	// TODO something is missing here...
 
 	public void run()
@@ -39,7 +40,7 @@ public class CPU
 			while (true)
 			{
 				// TODO something is missing here...
-
+				int opCode = this.operator.getOpCode();
 				// System.err.print("@" + this.programCounter + ": ");
 				switch (opCode)
 				{

@@ -9,6 +9,7 @@ import java.io.PrintStream;
 
 public class IO
 {
+	
 	private BufferedReader in;
 	private PrintStream out;
 	private PrintStream err;
@@ -24,13 +25,17 @@ public class IO
 
 	public void displayRuntimeError(String string)
 	{
+		
 		System.err.println(string);
+		
 		
 	}
 	
 	public void displayProgramTermination()
 	{
+		
 		System.out.println("(HALT)");
+		
 	}
 
 	public int read() throws IOException

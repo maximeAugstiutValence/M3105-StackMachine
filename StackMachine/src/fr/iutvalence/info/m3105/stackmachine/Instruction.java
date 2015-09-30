@@ -9,9 +9,9 @@ public class Instruction {
 		this.adress = adress;
 	}
 
-	public Object getOpCode() {
+	public int getOpCode() {
 		// TODO Auto-generated method stub
-		return null;
+		return 0;
 	}
 
 	public int[] getParams() {
