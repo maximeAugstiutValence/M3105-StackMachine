@@ -1,6 +1,6 @@
 package fr.iutvalence.info.m3105.stackmachine;
 
-public class Memory {
+public class Memory implements InterfaceMemory {
 
 	private int startAdress;
 	private int adress2;
@@ -15,6 +15,11 @@ public class Memory {
 	}
 
 	public void write(int currentAddress, Object opcode) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void write(int currentAddress, int opCode) {
 		// TODO Auto-generated method stub
 		
 	}

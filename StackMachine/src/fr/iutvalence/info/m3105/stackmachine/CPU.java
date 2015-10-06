@@ -2,7 +2,7 @@ package fr.iutvalence.info.m3105.stackmachine;
 
 import java.io.IOException;
 
-public class CPU
+public class CPU implements InterfaceCPU
 {
 
 	public final static int HALT 	= 0x00;
